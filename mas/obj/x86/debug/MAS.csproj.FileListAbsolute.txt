@@ -38,3 +38,13 @@ C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.csprojResolveAs
 C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
 C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.csproj.GenerateResource.Cache
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.exe
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.pdb
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.csproj.GenerateResource.Cache
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\bin\Debug\MAS.exe
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\bin\Debug\MAS.pdb
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\bin\Debug\MAS_COM.dll
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS\bin\Debug\MAS_COM.pdb

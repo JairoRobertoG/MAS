@@ -18,3 +18,8 @@ C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS_COM\bin\Debug\MAS_COM.pdb
 C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS_COM\obj\Debug\MAS_COM.csprojResolveAssemblyReference.cache
 C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS_COM\obj\Debug\MAS_COM.dll
 C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS_COM\obj\Debug\MAS_COM.pdb
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS_COM\bin\Debug\MAS_COM.dll
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS_COM\bin\Debug\MAS_COM.pdb
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS_COM\obj\Debug\MAS_COM.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS_COM\obj\Debug\MAS_COM.dll
+C:\Users\USUARIO\Documents\GitHub\MAS\MAS_COM\obj\Debug\MAS_COM.pdb
