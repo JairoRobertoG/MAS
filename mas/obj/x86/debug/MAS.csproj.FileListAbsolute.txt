@@ -1,0 +1,40 @@
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\obj\x86\Debug\MAS.csprojResolveAssemblyReference.cache
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\obj\x86\Debug\MAS.csproj.GenerateResource.Cache
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\bin\Debug\MAS.exe
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\bin\Debug\MAS.pdb
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\bin\Debug\MAS_COM.dll
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\bin\Debug\MAS_COM.pdb
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\obj\x86\Debug\MAS.exe
+C:\Users\JairoRoberto\documents\visual studio 2010\Projects\MAS\MAS\obj\x86\Debug\MAS.pdb
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\obj\x86\Debug\MAS.exe
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\obj\x86\Debug\MAS.pdb
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\bin\Debug\MAS.exe
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\bin\Debug\MAS.pdb
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\bin\Debug\MAS_COM.dll
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\bin\Debug\MAS_COM.pdb
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\obj\x86\Debug\MAS.csprojResolveAssemblyReference.cache
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\JAIROROBERTO\Desktop\MAS\MAS\obj\x86\Debug\MAS.csproj.GenerateResource.Cache
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\obj\x86\Debug\MAS.exe
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\obj\x86\Debug\MAS.pdb
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\bin\Debug\MAS.exe
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\bin\Debug\MAS.pdb
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\bin\Debug\MAS_COM.dll
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\bin\Debug\MAS_COM.pdb
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\obj\x86\Debug\MAS.csprojResolveAssemblyReference.cache
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\JairoRoberto\Dropbox\Proyectos Software\MAS\MAS\obj\x86\Debug\MAS.csproj.GenerateResource.Cache
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.exe
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.pdb
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\bin\Debug\MAS.exe
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\bin\Debug\MAS.pdb
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\bin\Debug\MAS_COM.dll
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\bin\Debug\MAS_COM.pdb
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.csprojResolveAssemblyReference.cache
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\JairoRoberto\Documents\GitHub\MAS\MAS\obj\x86\Debug\MAS.csproj.GenerateResource.Cache
