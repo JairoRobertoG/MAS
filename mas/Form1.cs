@@ -67,7 +67,6 @@ namespace WindowsFormsApplication1
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Prueba en github");
             GuardarInformacion();
         }
 
