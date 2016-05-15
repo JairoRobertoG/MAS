@@ -6,17 +6,17 @@ using System.Linq;
 using System.Text;
 using System.Data.SqlClient;
 using System.Configuration;
+using System.Windows.Forms;
 
-namespace MAS_COM
+namespace WindowsFormsApplication1
 {
-    public class Class1
+    class Querys
     {
-        SqlDataReader Rs;
-        System.Data.SqlClient.SqlParameter param;
-        
+        SqlParameter param;
+
         public string datosConexion()
         {
-            string result = "Data Source = 127.1.1.0;"
+            string result = "Data Source = 127.0.0.1;"
             + "Initial Catalog = MAS; Integrated Security = true;";
 
             return result;
@@ -25,12 +25,11 @@ namespace MAS_COM
         public DataTable Datos()
         {
             DataTable dt = new DataTable();
-
             try
             {
                 SqlConnection conexion = new SqlConnection(datosConexion());//cadena conexion
 
-                string consulta = "SELECT UPPER(Colonia) as Colonia FROM CT_Colonias"; //consulta a la tabla paises
+                string consulta = "SELECT UPPER(Colonia) as Colonia FROM CT_Colonias"; 
                 SqlCommand comando = new SqlCommand(consulta, conexion);
 
                 SqlDataAdapter adap = new SqlDataAdapter(comando);
@@ -47,7 +46,7 @@ namespace MAS_COM
         }
 
         public void insertarInformacionCliente(string Nombre, string ApellidoPaterno, string ApellidoMaterno, 
-                                               string Tel, string Colonia, string Calle, int NoCalle, int CP)
+                                               string Tel, string Colonia, string Calle, string NoCalle, int CP)
         {
             try
             {
@@ -58,26 +57,31 @@ namespace MAS_COM
                     string textoCmd = "insert into CT_Informacion ( " +
                                         "Nombre, " +
                                         "ApellidoPaterno, " +
+                                        "ApellidoMaterno, " +
                                         "Tel, " +
                                         "Colonia, " +
                                         "Calle, " +
                                         "NoCalle, " +
-                                        "CP " +
+                                        "CP, " +
+                                        "Fecha " +
                                       ") " +
                                       "values ( " +
                                         "@Nombre, " +
                                         "@ApellidoPaterno, " +
+                                        "@ApellidoMaterno, " +
                                         "@Tel, " +
                                         "@Colonia, " +
                                         "@Calle, " +
                                         "@NoCalle, " +
-                                        "@CP " +
+                                        "@CP, " +
+                                        "GETDATE() " +
                                       ") " ;
 
                     SqlCommand cmd = new SqlCommand(textoCmd, con);
 
                     cmd.Parameters.AddWithValue("@Nombre", Nombre);
                     cmd.Parameters.AddWithValue("@ApellidoPaterno", ApellidoPaterno);
+                    cmd.Parameters.AddWithValue("@ApellidoMaterno", ApellidoMaterno);
                     cmd.Parameters.AddWithValue("@Tel", Tel);
                     cmd.Parameters.AddWithValue("@Colonia", Colonia);
                     cmd.Parameters.AddWithValue("@Calle", Calle);
@@ -88,11 +92,12 @@ namespace MAS_COM
                     {
                         cmd.ExecuteNonQuery();
                         SqlDataAdapter da = new SqlDataAdapter(cmd);
+                        MessageBox.Show("La información ha sido guardada con exito");
                     }
 
                     catch (SqlException e)
                     {
-                        throw e;
+                        MessageBox.Show(e.ToString());
                     }
                 }
             }
@@ -113,7 +118,7 @@ namespace MAS_COM
                 {
                     con.Open();
                                         
-                    string textoCmd = "select CP " +
+                    string textCmd = "select CP " +
                                       "from CT_Colonias " +
                                       "where Colonia = @Colonia ";
 
@@ -122,7 +127,7 @@ namespace MAS_COM
                     param.SqlDbType = SqlDbType.VarChar;
                     param.Value = Colonia;
 
-                    SqlCommand cmd = new SqlCommand(textoCmd, con);
+                    SqlCommand cmd = new SqlCommand(textCmd, con);
 
                     try
                     {
@@ -146,7 +151,31 @@ namespace MAS_COM
 
             return ds;
         }
+        
+        public AutoCompleteStringCollection Autocomplete()
+        {
+            DataTable dt;
+            AutoCompleteStringCollection coleccion = new AutoCompleteStringCollection();
+            try
+            {
+                dt = Datos();
+                foreach (DataRow row in dt.Rows)
+                {
+                    coleccion.Add(row["Colonia"].ToString().Trim());
+                }
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
 
-                        
+            return coleccion;
+        }
+
+
+
+
+
+        
     }
 }
